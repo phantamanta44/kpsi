@@ -4,6 +4,6 @@ import xyz.phanta.kpsi.spell
 
 fun main() {
     spell {
-        trickDebug(selectorCaster())
+        selectorCaster().debug()
     }.asGraphStream().display()
 }
